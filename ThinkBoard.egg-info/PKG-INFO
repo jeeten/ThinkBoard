@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: ThinkBoard
+Version: 1.0
+Summary: Very short description
+Home-page: UNKNOWN
+Author: Thinker
+Author-email: thinker@thinkboard.com
+License: BSD
+Description: UNKNOWN
+Platform: any
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Think Board License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
