@@ -4,7 +4,9 @@ Python Flask Mysql Project
 1. Clone this project.
 2. Navigate to the project directory.
 3. Set your envirnment variable.
-4. Excute this command "pip install -e ." on command line.
+4. Excute this command "pip install -e ." on command line to install all reuired module and packages.
+5. export FLASK_APP=ThinkBoard // creating FLASK_APP envirnment variable
+6. flask run // to run the application
 5. Your are all set to go.
 
 Note: Database should be there
