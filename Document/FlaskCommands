@@ -1,0 +1,9 @@
+
+Flask supports python3 and python2 but it will work batter in python2
+
+virtualenv venv
+virtualenv -p /usr/bin/python2.7 venv
+pip install Flask
+create a simple flask file called Hello.py
+python Hello.py
+http://127.0.0.1:5000/

@@ -1,0 +1,183 @@
+#Data Scince is nothing is predictive model
+
+#importantan
+https://onlinecourses.nptel.ac.in/noc19_cs08/announcements
+
+A shortcut: render()
+
+
+http://www.quickcode.co/free/courses/learn/Python/37
+
+http://www.quickcode.co/free/course/learn/Introduction-To-Python-Programming/180
+https://www.udemy.com/pythonforbeginnersintro/learn/v4/t/lecture/8257004?start=0
+http://www.quickcode.co/free/course/learn/Python-for-Beginners-with-Examples/188
+https://www.codeconquest.com/blog/the-50-best-websites-to-learn-python/
+https://hackr.io/tutorials/learn-python
+https://www.forbes.com/sites/laurencebradford/2018/02/10/5-ways-to-stay-on-track-as-you-learn-to-code-in-2018/#7da422ef36a7
+https://tutorialedge.net/course/python/
+https://realpython.com/python-web-applications/	
+https://docs.python-guide.org/scenarios/web/
+https://www.tutorialspoint.com/python/
+https://docs.python.org/3/tutorial/
+https://www.python.org/
+https://python.fossee.in/
+https://spoken-tutorial.org/tutorial-search/?search_foss=Python&search_language=English
+https://onlinecourses.nptel.ac.in/noc19_cs08/announcements?force=true#registration_confirmation
+
+https://www.digitalocean.com/community/tutorials/how-to-use-mysql-or-mariadb-with-your-django-application-on-ubuntu-14-04
+
+http://monik.in/a-quick-guide-to-getting-a-django-uwsgi-nginx-server-up-on-ubuntu-16-04-aws-ec2/
+https://www.linode.com/community/questions/11074/systemd-uwsgiservice-not-running
+
+https://www.quora.com/What-is-a-good-explanation-of-Latent-Dirichlet-Allocation
+
+https://lettier.com/projects/lda-topic-modeling/
+
+https://stackoverflow.com/questions/13913142/how-do-i-get-topic-numbers-in-lda-model-in-gensim?rq=1​
+
+
+
+https://mytube.techmahindra.com/app/video/gcc-c11eba7f-225f-418c-b992-80a7afecbe86?search=Python%20L1&score=38615.133&rank=1
+https://mytube.techmahindra.com/app/video/gcc-bf0ccfad-e26f-4bac-ae93-bb1c8c2589c6?search=Python%20L1&score=31388.4&rank=2 
+https://mytube.techmahindra.com/app/video/gcc-81cd587c-cb6e-4299-8b8d-fdbf1f6570dd?search=Python%20L1&score=31388.4&rank=3
+https://mytube.techmahindra.com/app/video/gcc-5369c05b-ad33-48ad-b17c-90a72653459a?search=Python%20L1&score=31388.4&rank=4
+ 
+
+
+
+
+anaconda python
+nginx gunicorn flask
+gunicorn vs uwsgi
+nginx uwsgi django
+
+Python - Agenda
+--------------------
+Introduction - histry - features - pro & cons
+setup - setting up envirnment - installaing for different os - ides and tools
+Language Basics - varialble , looping, Operator
+Data Stractures - list, tupples, set
+Functions - 
+Modules - groupin function is called a module
+Exception Handling
+Packages - grouping multiple modules together
+File Handling - read - write
+Oop Concepts - polymorphysm - method overloading,opertor overloading, over riding, inheritance
+Standard Library - python is a very rich collection of modules and librarys - multithreding - unit testing
+Regular Expression - 
+DB Handling - database handeling
+
+Features of Python
+--------------------
+1. It is a language for beginners, its very fun to pick,
+2. it is a language which is easy to read/write/maintain - minimal number of keywords - stracture is very simple - less coding
+3. Intractive interpreter ( No Compilation or linking ) - python process our code in runtime - its not going to store in memory - REPL (Read - Eavalute - Print - Loop)
+4. Object oriented from day one - python supports procedural programing and object programing
+5 Portable - its availabe for all the os - windows - linux -Mac os
+6 Open source
+7 Built in Type/Tools/Library
+8 Rich Collection for third party library
+9 Automatic Memory Management - Memory will deloacted once object is no more in use
+10 Anything in python is an object
+11 Python doesnot support any data types
+12 Strongly typed language
+13 Dynamically typed language - no variable declaration needed - varaibles stateway can be assigend a value
+
+
+The python Source code (.py) is converted into intermidiate code called byte code with extantion (.tyc) which is plat form independent and later on securely excuted by PVM	
+Python interpreters - 
+cpython - the standard Python interpreter written in c89 - embedding c programs in python and vice versa
+Jython - embedding java programs in python and vice versa
+IronPython - embedding .Net programs in python and vice versa
+PyPy - the python interpreter writen in python itself
+
+
+Devloped in back 1990
+
+python is good for automation and its very good with selenium
+
+Running Python Script
+---------------------
+
+By python intractive console >>>
+command lile python file.py
+use IDEs like idle, eclips ( with pyDev plugin, you can convert eclips into python IDEs ) and PyCharm
+
+Language Basics
+----------------
+
+
+Reverse Keywards
+-------------------
+
+comment in python
+---------------------
+# pound dymbol is used for single line comment
+'''---------''' tripple quote is act like as multiple line comment b	ut main purpose is docstrings
+
+opertores
+-----------
+/ 
+//
+
+Data type convers function
+--------------------------
+int(), float()
+----------------------------
+dir(__builtins__) - to get all the content
+type() - to know the type of the content
+help() - manual of the given parameter
+math - you have to import math first and use the function of its by math.function name
+end
+locals() # to know the defined variables
+
+# os - any dos command will work using this modul
+os.system('cls')
+isinstance("name",str) # to check weather it is an instace of the given data type
+list('apple');
+
+Different Data types - Collection of data stracture
+-------------------------------------------
+List - its an index array unlimited size, it is a hactrogeneous type of value - it can represent by [] square bracket
+	Example : [1,98,10,6,'amit','1.0'], 
+	[lowe limit: uper limit], 
+	[:] = [] #empty initialisation
+	len() # to know the size
+	del listName # to delete the list
+        a=a+[1,2] #not recomanded
+	a.append(2) 
+	a.append([1,2,4]) #
+	a.extend([1,2,4]) #
+	a.insert(index:0,value:1000)
+	list is mutable means can modify
+        a.count(2)# count the presence of the passed value
+        a.remove(2) # remove by value
+	del a[1] #remove by position
+	a.pop() #remove the last elemet in default byt you can remove by pass a possition
+	max(),min() # it will work on in integer list only
+        sum() # it will work on in integer list only
+        help(list) # will give all the methods of the list
+	list(range(5))
+	a.reverse() # 
+	value in list # to check the value is exist or not
+        zip #
+	
+
+Tuple - Read only List - it can represent by () bracket, its are very fast as compare to list
+	reveresed(), sorted()
+
+Set - Unique collection of list, elements will enclosed by {}
+	a.add(12)
+	
+Dictionary - Assoucitve array key/value - very quick to acess
+	d = {'Name':'Raju'}
+	d.clear() # will delete the all key
+	del d# delete the dictionary
+	d.keys()
+	d.values()
+	d.items()
+
+controll stractures
+--------------------------
+
+

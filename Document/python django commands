@@ -1,0 +1,114 @@
+832-2580126 - working admission
+832-2580449 - working admission - bits pillani
+
+python manage.py makemigrations
+python manage.py makemigrations "appName"
+python manage.py migrate "appName"
+python manage.py sqlmigrate <appname> <migration no eg. 0001 or 0004>
+python manage.py sqlmigrate <appname>
+python manage.py makemigrations --name=<name_of_migration>
+python manage.py migrate <name_of_app> <rollback_migration_name>
+python manage.py migrate <name_of_app> zero #Removing all the migration from the particular app
+python manage.py showmigrations user
+python manage.py migrate --fake core zero #Clear the migration history (please note that core is the name of my app):
+
+pip install mysqlclien
+
+sudo systemctl daemon-reload
+sudo systemctl restart nginx.service
+sudo systemctl retart uwsgi.service
+
+
+
+https://docs.python.org/3/tutorial/venv.html
+pip install --upgrade pip
+virtualenv venv
+virtualenv -p /usr/bin/python2.7 venv
+python3 -m venv env
+source ./env/bin/activate 
+python -m django --version
+python -m pip install --user django
+
+django-admin startproject djangoProject
+python manage.py migrate
+python manage.py runserver
+python manage.py runserver 8080
+python manage.py runserver 0:8000
+python manage.py createsuperuser
+systemctl daemon-reload
+systemctl restart nginx.service
+systemctl retart uwsgi.service
+python3 -m venv myapp_env
+python -m djanog --version
+
+
+
+#to login with admin we need to create super user
+python manage.py createsuperuser
+pip install uwsgi
+uwsgi --http :8000 --module djangoProject.wsgi
+uwsgi --http :8080 --module djangoProject.wsgi
+uwsgi --http :8000 --wsgi-file test.py
+virtualenv -p /usr/bin/python2.7 virtualenv_name
+
+
+uwsgi --socket djangoProject.sock --wsgi-file test.py --chmod-socket=666 
+uwsgi --socket djangoProject.sock --wsgi-file test.py --chmod-socket=664
+uwsgi --socket djangoProject.sock --module djangoProject.wsgi --chmod-socket=666
+deactivate
+
+djangoProject.ini
+uwsgi --ini /etc/uwsgi/sites/djangoProject.ini
+uwsgi --ini /var/www/Python_DJ_Framwork/djangoProject/djangoProject.ini
+
+
+
+Could not find a version that satisfies the requirement cx_Oracle==5 (from versions: 5.1.3, 5.2, 5.2.1, 5.3, 6.0b1, 6.0b2, 6.0rc1, 6.0rc2, 6.0, 6.0.1, 6.0.2, 6.0.3, 6.1, 6.2.post2, 6.2.1, 6.3, 6.3.1, 6.4, 6.4.1, 7.0.0)
+
+
+
+#Migrating oracle to mysql using python bellow modules are needed
+enterpreter2.7
+pip install etlalchemy
+pip install etlalchemy
+pip install cx_Oracle
+pip install MySQL-python
+python -m pip install cx_Oracle==5.3
+python -m pip uninstall cx_Oracle
+pip freeze
+
+manually instalation
+
+
+
+
+
+
+#TO-DO-LIST
+
+https://docs.python.org/2/tutorial/introduction.html
+https://uwsgi-docs.readthedocs.io/en/latest/tutorials/Django_and_nginx.html
+https://github.com/nginx/nginx/blob/master/conf/uwsgi_params
+https://www.digitalocean.com/community/tutorials/how-to-serve-django-applications-with-uwsgi-and-nginx-on-ubuntu-14-04
+https://www.reddit.com/r/django/comments/5x7h75/what_is_the_best_wsgi_server_for_django/
+http://oliverelliott.org/article/computing/tut_setup_nginx_django/
+http://www.grokcode.com/784/how-to-setup-a-linux-nginx-uwsgi-python-django-server/
+https://goodcode.io/articles/django-nginx-gunicorn/
+https://uwsgi-docs.readthedocs.io/en/latest/tutorials/Django_and_nginx.html
+https://uwsgi-docs.readthedocs.io/en/latest/tutorials/Django_and_nginx.html
+https://tutos.readthedocs.io/en/latest/source/ndg.html
+https://docs.djangoproject.com/en/2.1/intro/tutorial02/
+https://docs.djangoproject.com/en/2.1/intro/tutorial01/
+https://docs.djangoproject.com/en/1.8/intro/tutorial01/
+https://realpython.com/django-setup/
+https://www.djangoproject.com/start/
+https://docs.djangoproject.com/en/2.1/intro/tutorial01/
+https://docs.djangoproject.com/en/2.1/topics/install/
+https://docs.djangoproject.com/en/2.1/glossary/
+https://docs.djangoproject.com/en/2.1/faq/install/#faq-python-version-support
+
+#Oracle Setup
+
+https://tec600.wordpress.com/2017/06/29/oracle-installation-on-ubuntu-16-04/
+
+

@@ -1,0 +1,40 @@
+#Refered Site : http://exploreflask.com/en/latest/organizing.html, http://exploreflask.com/en/latest/blueprints.html
+#Refered Site : http://flask.pocoo.org/docs/1.0/patterns/packages/
+#https://flask-migrate.readthedocs.io/en/latest/
+#https://blog.miguelgrinberg.com/post/migrating-from-flask-script-to-the-new-flask-cli
+
+
+------------------------- For Small Projects --------------------------
+Single module
+
+A lot of the Flask examples that you’ll come across will keep all of the code in a single file, often app.py. This is great for quick projects (like the ones used for tutorials), where you just need to serve a few routes and you’ve got less than a few hundred lines of application code.
+
+#File Stracture
+
+app.py
+config.py
+requirements.txt
+static/
+templates/
+
+------------------------- For bigger Projects --------------------------
+
+Package
+
+When you’re working on a project that’s a little more complex, a single module can get messy. You’ll need to define classes for models and forms, and they’ll get mixed in with the code for your routes and configuration. All of this can frustrate development. To solve this problem, we can factor out the different components of our app into a group of inter-connected modules — a package.
+
+
+#File Stracture
+
+config.py
+requirements.txt
+run.py
+instance/
+    config.py
+yourapp/
+    __init__.py
+    views.py
+    models.py
+    forms.py
+    static/
+    templates/
