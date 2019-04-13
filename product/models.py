@@ -27,3 +27,21 @@ class ProductBarcodeSchema(ms.ModelSchema):
     class Meta:
         model = ProductBarcode
         fields = ("ProductBarcodeId","ProductSKUId","Barcode","AddedDate","LastUpdatedDate","source","sourceinfo")
+
+
+class ProductSKU(Base):
+    __table__ = Base.metadata.tables['ProductSKU']
+    #ProductBarcodeId = db.Column("productbarcodeid",db.Integer,primary_key=True)
+
+class ProductSKUShema(ms.ModelSchema):
+    class Meta:
+        model = ProductSKU
+        fields = ("ProductSKUId","ProductId","ProductSKU","ProductSKUUQCId","ProductImage","Status","AddedDate","LastUpdatedDate","IsRecommended","hsnc")
+
+class Product(db.Model):
+    __tablename__ = 'Product'
+
+class ProductSchema(ms.ModelSchema):
+    class Meta:
+        model = Product
+        fields = ("ProductId","BrandId","CategoryId","ProductName","Status","AddedDate","LastUpdatedDate","SubSubCategoryId","Source")

@@ -3215,3 +3215,84 @@ DEBUG:root:validation: ['StoreId', 'SPBarcodeId'] is tupple
 DEBUG:root:validation: StoreId iterating
 DEBUG:root:validation: SPBarcodeId iterating
 INFO:werkzeug:127.0.0.1 - - [18/Mar/2019 08:43:03] "Post /api/product/getProductDetails HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG:root:Request: {u'Request': {u'Body': {u'StoreId': u'12345', u'SPBarcodeId': u'12374859493'}, u'Header': {u'Product': u'2', u'RequestTime': u'1.34545', u'Version': u'1.0', u'DeviceId': u'123'}}}
+DEBUG:root:validation: ['Header', 'Body'] is tupple
+DEBUG:root:validation: Header iterating
+DEBUG:root:validation: Body iterating
+DEBUG:root:validation: ['DeviceId', 'RequestTime', 'Version', 'Product'] is tupple
+DEBUG:root:validation: DeviceId iterating
+DEBUG:root:validation: RequestTime iterating
+DEBUG:root:validation: Version iterating
+DEBUG:root:validation: Product iterating
+DEBUG:root:validation: ['StoreId', 'SPBarcodeId'] is tupple
+DEBUG:root:validation: StoreId iterating
+DEBUG:root:validation: SPBarcodeId iterating
+DEBUG:root:Don't know how to join to <class 'product.models.ProductBarcode'>; please use an ON clause to more clearly establish the left side of this join
+ERROR:root:Response : {'Control': {'Status': 0, 'MessageCode': 200, 'Message': "Don't know how to join to <class 'product.models.ProductBarcode'>; please use an ON clause to more clearly establish the left side of this join", 'TimeTaken': ' Second'}, 'Data': {'Products': [], 'LTM': 'http://127.0.0.1:5000'}}
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2019 09:01:44] "Post /api/product/getProductDetails HTTP/1.1" 200 -
+DEBUG:root:Request: {u'Request': {u'Body': {u'StoreId': u'12345', u'SPBarcodeId': u'12374859493'}, u'Header': {u'Product': u'2', u'RequestTime': u'1.34545', u'Version': u'1.0', u'DeviceId': u'123'}}}
+DEBUG:root:validation: ['Header', 'Body'] is tupple
+DEBUG:root:validation: Header iterating
+DEBUG:root:validation: Body iterating
+DEBUG:root:validation: ['DeviceId', 'RequestTime', 'Version', 'Product'] is tupple
+DEBUG:root:validation: DeviceId iterating
+DEBUG:root:validation: RequestTime iterating
+DEBUG:root:validation: Version iterating
+DEBUG:root:validation: Product iterating
+DEBUG:root:validation: ['StoreId', 'SPBarcodeId'] is tupple
+DEBUG:root:validation: StoreId iterating
+DEBUG:root:validation: SPBarcodeId iterating
+DEBUG:root:Don't know how to join to <class 'product.models.ProductBarcode'>; please use an ON clause to more clearly establish the left side of this join
+ERROR:root:Response : {'Control': {'Status': 0, 'MessageCode': 200, 'Message': "Don't know how to join to <class 'product.models.ProductBarcode'>; please use an ON clause to more clearly establish the left side of this join", 'TimeTaken': ' Second'}, 'Data': {'Products': [], 'LTM': 'http://127.0.0.1:5000'}}
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2019 09:02:59] "Post /api/product/getProductDetails HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG:root:Request: {u'Request': {u'Body': {u'StoreId': u'12345', u'SPBarcodeId': u'12374859493'}, u'Header': {u'Product': u'2', u'RequestTime': u'1.34545', u'Version': u'1.0', u'DeviceId': u'123'}}}
+DEBUG:root:validation: ['Header', 'Body'] is tupple
+DEBUG:root:validation: Header iterating
+DEBUG:root:validation: Body iterating
+DEBUG:root:validation: ['DeviceId', 'RequestTime', 'Version', 'Product'] is tupple
+DEBUG:root:validation: DeviceId iterating
+DEBUG:root:validation: RequestTime iterating
+DEBUG:root:validation: Version iterating
+DEBUG:root:validation: Product iterating
+DEBUG:root:validation: ['StoreId', 'SPBarcodeId'] is tupple
+DEBUG:root:validation: StoreId iterating
+DEBUG:root:validation: SPBarcodeId iterating
+DEBUG:root:Don't know how to join to <class 'product.models.ProductSKU'>; please use an ON clause to more clearly establish the left side of this join
+ERROR:root:Response : {'Control': {'Status': 0, 'MessageCode': 200, 'Message': "Don't know how to join to <class 'product.models.ProductSKU'>; please use an ON clause to more clearly establish the left side of this join", 'TimeTaken': ' Second'}, 'Data': {'Products': [], 'LTM': 'http://127.0.0.1:5000'}}
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2019 09:03:09] "Post /api/product/getProductDetails HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG:root:Request: {u'Request': {u'Body': {u'StoreId': u'12345', u'SPBarcodeId': u'12374859493'}, u'Header': {u'Product': u'2', u'RequestTime': u'1.34545', u'Version': u'1.0', u'DeviceId': u'123'}}}
+DEBUG:root:validation: ['Header', 'Body'] is tupple
+DEBUG:root:validation: Header iterating
+DEBUG:root:validation: Body iterating
+DEBUG:root:validation: ['DeviceId', 'RequestTime', 'Version', 'Product'] is tupple
+DEBUG:root:validation: DeviceId iterating
+DEBUG:root:validation: RequestTime iterating
+DEBUG:root:validation: Version iterating
+DEBUG:root:validation: Product iterating
+DEBUG:root:validation: ['StoreId', 'SPBarcodeId'] is tupple
+DEBUG:root:validation: StoreId iterating
+DEBUG:root:validation: SPBarcodeId iterating
+DEBUG:root:Don't know how to join to <class 'product.models.ProductSKU'>; please use an ON clause to more clearly establish the left side of this join
+ERROR:root:Response : {'Control': {'Status': 0, 'MessageCode': 200, 'Message': "Don't know how to join to <class 'product.models.ProductSKU'>; please use an ON clause to more clearly establish the left side of this join", 'TimeTaken': ' Second'}, 'Data': {'Products': [], 'LTM': 'http://127.0.0.1:5000'}}
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2019 09:11:56] "Post /api/product/getProductDetails HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG:root:Request: {u'Request': {u'Body': {u'StoreId': u'12345', u'SPBarcodeId': u'12374859493'}, u'Header': {u'Product': u'2', u'RequestTime': u'1.34545', u'Version': u'1.0', u'DeviceId': u'123'}}}
+DEBUG:root:validation: ['Header', 'Body'] is tupple
+DEBUG:root:validation: Header iterating
+DEBUG:root:validation: Body iterating
+DEBUG:root:validation: ['DeviceId', 'RequestTime', 'Version', 'Product'] is tupple
+DEBUG:root:validation: DeviceId iterating
+DEBUG:root:validation: RequestTime iterating
+DEBUG:root:validation: Version iterating
+DEBUG:root:validation: Product iterating
+DEBUG:root:validation: ['StoreId', 'SPBarcodeId'] is tupple
+DEBUG:root:validation: StoreId iterating
+DEBUG:root:validation: SPBarcodeId iterating
+DEBUG:root:Don't know how to join to <class 'product.models.ProductSKU'>; please use an ON clause to more clearly establish the left side of this join
+ERROR:root:Response : {'Control': {'Status': 0, 'MessageCode': 200, 'Message': "Don't know how to join to <class 'product.models.ProductSKU'>; please use an ON clause to more clearly establish the left side of this join", 'TimeTaken': ' Second'}, 'Data': {'Products': [], 'LTM': 'http://127.0.0.1:5000'}}
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2019 09:16:20] "Post /api/product/getProductDetails HTTP/1.1" 200 -

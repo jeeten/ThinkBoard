@@ -3,5 +3,5 @@ SECRET_KEY = 'Sm9obiBTY2hyb20ga2lja3MgYXNz'
 STRIPE_API_KEY = 'SmFjb2IgS2FwbGFuLU1vc3MgaXMgYSBoZXJv'
 
 #Database MySQL
-SQLALCHEMY_DATABASE_URI= "mysql://root:root@123@localhost:3306/Catalogue"
+SQLALCHEMY_DATABASE_URI= "mysql://root:root@123@127.0.0.1:3306/Catalogue"
 SQLALCHEMY_TRACK_MODIFICATIONS = True

@@ -68,7 +68,12 @@ def getProductDetails():
         #logging.debug(dir(ProductBarcode))
 
         allProduct = session.query(ProductBarcode).limit(10).all()
-        #logging.debug("all Poroduct {}".format(allProduct))
+        productDetails = (session.query(ProductBarcode)
+         .join(ProductSKU).filter(ProductBarcode.ProductSKUId == ProductSKU.ProductSKUId)
+         .join(Product).filter(Product.ProductId == ProductSKU.ProductId)
+         ).all()
+
+        logging.debug("all Poroduct {}".format(productDetails))
         ProductSchema = ProductBarcodeSchema(many=True)
         outPut = ProductSchema.dump(allProduct).data
 
